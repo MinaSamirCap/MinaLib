@@ -1,2 +1,3 @@
+include ':minalibrary'
 include ':app'
 rootProject.name = "MinaLib"
