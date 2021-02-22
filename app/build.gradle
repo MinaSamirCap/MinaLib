@@ -17,6 +17,10 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        dataBinding = true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -46,6 +50,7 @@ dependencies {
     //implementation project(path: ':minalibrary')
 
     implementation 'com.github.MinaSamirCap:MinaLib:0.1.0'
+    implementation 'com.github.ahmedsalemelzeiny:chatbot-android:-SNAPSHOT'
 
 
 }

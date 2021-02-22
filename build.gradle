@@ -1,10 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    ext.kotlin_version = "1.4.21"
+    ext.kotlin_version = "1.4.30"
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven {
+            url "https://jitpack.io"
+            credentials { username "jp_4h3fhfbpf3fp65nnjf18khodnq" }
+        }
+
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.2"
@@ -19,7 +23,10 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven {
+            url "https://jitpack.io"
+            credentials { username "jp_4h3fhfbpf3fp65nnjf18khodnq" }
+        }
     }
 }
 
