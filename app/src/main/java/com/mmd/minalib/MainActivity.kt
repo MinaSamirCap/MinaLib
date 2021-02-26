@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        /// a dummy comment ..
         findViewById<TextView>(R.id.tv).setOnClickListener {
             MinaLibrary.minaToast(this)
         }
