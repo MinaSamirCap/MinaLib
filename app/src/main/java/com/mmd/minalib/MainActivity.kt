@@ -65,6 +65,7 @@ class MainActivity : AppCompatActivity() {
         /// a dummy comment ..
         /// a dummy comment ..
         /// a dummy comment ..
+        /// a dummy comment ..
 
         /// another dummy comment ..
         /// another dummy comment ..
