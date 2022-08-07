@@ -193,6 +193,7 @@ class MainActivity : AppCompatActivity() {
         /// another dummy comment ..
         /// another dummy comment ..
         /// another dummy comment ..
+        /// another dummy comment ..
 
         findViewById<TextView>(R.id.tv).setOnClickListener {
             MinaLibrary.minaToast(this)
